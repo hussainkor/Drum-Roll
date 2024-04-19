@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  background: #081a3b;
+  font-family: "Roboto", sans-serif;
+}
+
+.drum-roll {
+  margin: auto;
+  max-width: 1100px;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.drum-roll h1 {
+  color: #fff;
+  font-size: 65px;
+  margin-bottom: 10px;
+}
+
+.drum-roll h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.beats {
+  display: flex;
+  gap: 10px;
+}
+
+.w {
+  background: url(./assets/images/tom1.png) top center;
+}
+
+.a {
+  background: url(./assets/images/tom2.png) top center;
+}
+
+.s {
+  background: url(./assets/images/tom3.png) top center;
+}
+
+.d {
+  background: url(./assets/images/tom4.png) top center;
+}
+
+.j {
+  background: url(./assets/images/snare.png) top center;
+}
+
+.k {
+  background: url(./assets/images/crash.png) top center;
+}
+
+.l {
+  background: url(./assets/images/kick.png) top center;
+}
+
+.drum {
+  width: 120px;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  text-shadow: 2px 2px #ff0000;
+}
